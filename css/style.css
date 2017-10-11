@@ -1,0 +1,115 @@
+body {
+    background-color: linen;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 2px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 500px;
+    margin-top: 50px;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow:5px 5px 10px black;
+    background-color: #ecf0f1;
+    text-align: center;
+    min-height: 280px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #3498db;
+    padding: 20px;
+    text-shadow:5px 5px 10px black;
+} 
+
+i {
+    color: white;
+    text-shadow:5px 5px 10px black;
+}
+
+.form {
+    background-color: #bdc3c7;
+    padding: 15px;
+}
+
+label {
+    color: #2c3e50;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+input {
+    border:2px solid white;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow:5px 5px 10px black;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 18px;
+}
+
+input:focus {
+    background-color: #f1c40f;
+}
+
+span {
+    position: relative;
+}
+
+span:after {
+    font-family: FontAwesome;
+    content: "\f0fe";
+    font-size: 20px;
+    position: absolute;
+    right: 20px;
+    top: -3px;
+    color: white;
+    text-shadow:5px 5px 10px black;
+}
+
+.submit {
+    padding: 10px;
+    background-color: #2980b9;
+    border: 1px solid #f1c40f;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #ecf0f1;
+    letter-spacing: 2px;
+    text-shadow:5px 5px 10px black;
+    font-size: 16px;
+    margin-left: 30px;
+    box-shadow:5px 5px 10px black;
+    text-align: center;
+}
+
+.icon-cloud-upload {
+   margin-left: 30px;
+}
+
+.icon-ok-sign {
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.input_upload {
+    color: #34495e;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #e74c3c;
+    margin-top: 20px;
+    margin-left: 5px;
+    text-align: center;
+    border:2px solid #f1c40f;
+}
+
+
+
+
+
+
+
+
+

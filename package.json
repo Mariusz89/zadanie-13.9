@@ -1,0 +1,22 @@
+{
+  "name": "zadanie-13.9-upload",
+  "version": "1.0.0",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "express": "^4.16.1",
+    "formidable": "^1.1.1",
+    "inline-css": "^2.2.2",
+    "path": "^0.12.7",
+    "utf8": "^2.1.2"
+  },
+  "devDependencies": {},
+  "description": ""
+}

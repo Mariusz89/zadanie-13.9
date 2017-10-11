@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Upload files</title>
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cuprum|Germania+One|Ribeye+Marrow|Yanone+Kaffeesatz" rel="stylesheet">
+        <link href="css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <h1> Upload Files<i class="icon-cloud-upload"></i></h1>
+            <div class="form">
+                <form action="/upload"  enctype="multipart/form-data" method="post">
+                    <label>Tytuł pliku</label>
+                    <input type="text" name="title">    
+                    <br>
+                    <label>Plik</label>
+                    <span ><input class = "input_upload fa fa-plus-square" type="file" name="upload"/></span>
+                    <button class = "submit" type="submit">SEND<i class="icon-ok-sign"></i></button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

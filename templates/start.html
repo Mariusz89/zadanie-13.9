@@ -10,17 +10,17 @@
     </head>
     <body>
         <div class="container">
-            <h1> Upload Files<i class="icon-cloud-upload"></i></h1>
-            <div class="form">
-                <form action="/upload"  enctype="multipart/form-data" method="post">
-                    <label>Tytuł pliku</label>
-                    <input type="text" name="title">    
-                    <br>
-                    <label>Plik</label>
-                    <span ><input class = "input_upload fa fa-plus-square" type="file" name="upload"/></span>
-                    <button class = "submit" type="submit">SEND<i class="icon-ok-sign"></i></button>
-                </form>
-            </div>
+            <h1> Upload Files<i class="icon-cloud-upload"></i></h1>       
+            <form action="/upload"  enctype="multipart/form-data" method="post">
+                <div class="form">
+                     <label>Tytuł pliku</label>
+                     <input type="text" name="title"> 
+                 </div>   
+                <br>
+                <label>Plik</label>
+                <span ><input class = "input_upload fa fa-plus-square" type="file" name="upload"/></span>
+                <button class = "submit" type="submit">SEND<i class="icon-ok-sign"></i></button>
+            </form> 
         </div>
     </body>
 </html>
